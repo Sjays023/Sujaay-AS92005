@@ -11,13 +11,15 @@ grid-row-gap: 1px;
 .div1 { grid-area: 1 / 1 / 2 / 6;
     background: forest-green linear-gradient(#2fcc78, rgb(31, 122, 73));
     text-align: center;
-    text-underline-mode: var();
+
 }
 .div2 { grid-area: 2 / 2 / 3 / 3;
 text-align: center;
-background-color: #8cc46e;
-width: 250px;
+background-color: #79BAEC;
+width: 190px;
 height: 30px;
+
+
 
 
 }
@@ -25,18 +27,18 @@ height: 30px;
 
 .div3 { grid-area: 2 / 3 / 3 / 4;
 text-align: center;
-background-color: #74a356;
-width: 250px;
+background-color: #4169e1;
+width: 190px;
 height: 30px;
-
+color: #d3d3d3
 }
 
 .div4 { grid-area: 2 / 4 / 3 / 5;
 text-align: center;
-    background-color: #54753f;
-width: 250px;
+    background-color: #151b54;
+width: 190px;
 height: 30px;
-
+color: white;
 
 
 }
@@ -53,6 +55,7 @@ img {
 h3 {
     position: relative; top: -290px;
     text-align: center;
+    color: white
 }
 
 body {
@@ -60,3 +63,28 @@ body {
 
 
 }
+
+a:page2 {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
