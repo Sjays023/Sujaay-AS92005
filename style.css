@@ -1,0 +1,62 @@
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 1px;
+grid-row-gap: 1px;
+}
+
+
+
+.div1 { grid-area: 1 / 1 / 2 / 6;
+    background: forest-green linear-gradient(#2fcc78, rgb(31, 122, 73));
+    text-align: center;
+    text-underline-mode: var();
+}
+.div2 { grid-area: 2 / 2 / 3 / 3;
+text-align: center;
+background-color: #8cc46e;
+width: 250px;
+height: 30px;
+
+
+}
+
+
+.div3 { grid-area: 2 / 3 / 3 / 4;
+text-align: center;
+background-color: #74a356;
+width: 250px;
+height: 30px;
+
+}
+
+.div4 { grid-area: 2 / 4 / 3 / 5;
+text-align: center;
+    background-color: #54753f;
+width: 250px;
+height: 30px;
+
+
+
+}
+
+
+
+img {
+    display: block;
+    margin: auto;
+    position: relative; top: -280px;
+
+}
+
+h3 {
+    position: relative; top: -290px;
+    text-align: center;
+}
+
+body {
+    background-image: url("image2.jpg");
+
+
+}
