@@ -8,60 +8,49 @@ grid-row-gap: 1px;
 
 
 
-.div1 { grid-area: 1 / 1 / 2 / 6;
-    background: forest-green linear-gradient(#2fcc78, rgb(31, 122, 73));
-    text-align: center;
-    font-family: Courier New (monospace)
 
-}
-.div2 { grid-area: 2 / 2 / 3 / 3;
-text-align: center;
-background-color: #79BAEC;
-width: 190px;
-height: 30px;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-}
-.div2:hover {
-  background-color: #1338BE;
+.navbar {
+  background-color: #4a5d23;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
 }
 
-.div3 { grid-area: 2 / 3 / 3 / 4;
-text-align: center;
-background-color: #4169e1;
-width: 190px;
-height: 30px;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-}
-.div3:hover {
-  background-color: #1338BE;
+
+.navbar a {
+  float: left;
+  color: #dbe2e9;
+  text-align: center;
+  padding: 15px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 20px;
+
 }
 
-.div4 { grid-area: 2 / 4 / 3 / 5;
-text-align: center;
-    background-color: #151b54;
-width: 190px;
-height: 30px;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
+
+.navbar a:hover {
+  background-color: #1a2421;
+  color: white;
 }
-.div4:hover {
-  background-color: #1338BE;
+
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 
 
-img {
-    display: block;
-    margin: auto;
-    position: relative; top: -280px;
+.div5 {
+border-: 1px;
+
+
+}
+
+
 
 }
 
@@ -73,32 +62,9 @@ h4 {
 }
 
 body {
-    background-image: url("image2.jpg");
+    background-color: #d8e4bc;
 
 
 }
 
-a:page2 {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: green;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
