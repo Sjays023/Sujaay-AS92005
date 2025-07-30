@@ -231,13 +231,12 @@ text-align: center;
   color: #4a5d23;
 }
 
-iframe {
+div1 {
 text-align: center;
 position: absolute;
 margin: auto;
-top: 115%;
+top: 105%;
 left: 50%;
-
 transform: translate(-50%, -50%);'
 
 }
